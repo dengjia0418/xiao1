@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/some-page/some-page"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#075",
+    "navigationBarTitleText": "深圳薪资计算器",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": "false"
+  },
+  "tabBar":{
+   "color":"#f00",
+   "selectedColor":"#00f",
+   "backgroundColor":"#0f0",
+   "borderStyle":"black",
+   "position":"botton",
+   "list":[{
+        "pagePath":"pages/index/index",
+        "text": "首页",
+        "iconPath":"pages/image/lol.png",
+        "selectedIconPath":"pages/image/lol2.png"
+      },{
+       "pagePath":"pages/logs/logs",
+       "text": "购物车"
+       
+      }]
+   }
+  
+    
+  
+    
+  
+}
